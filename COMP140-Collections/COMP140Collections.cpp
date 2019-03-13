@@ -118,7 +118,7 @@ int main(int, char**)
 		SDL_RenderPresent(renderer);
 	}
 
-	//Delete all the characters, this is the best and probably only way top delete 
+	//Delete all the characters, this is the best and probably only way to delete 
 	//everything in a vector
 	for (auto iter = Characters.begin(); iter != Characters.end();)
 	{
@@ -143,7 +143,6 @@ int main(int, char**)
 	TTF_Quit();
 	SDL_Quit();
 
-	return 0;
     return 0;
 }
 
