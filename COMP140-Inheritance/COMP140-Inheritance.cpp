@@ -5,6 +5,7 @@
 #include "Sprite.h"
 
 #include "Object.h"
+#include "Body.h"
 
 int main(int, char**)
 {
@@ -54,6 +55,7 @@ int main(int, char**)
 
 
 	Object* testObject = new Object(renderer, "assets/sprites/roguelikeChar_transparent.png");
+	testObject->CreateSprite(0, 8);
 
 	//Controls the game loop
 	bool quit = false;
